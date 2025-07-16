@@ -401,7 +401,7 @@ fn main() -> std::io::Result<()> {
                 println!("{vc}");
             }
             let selection = dialoguer::MultiSelect::new()
-                .with_prompt("Select the dice that you want to roll again:")
+                .with_prompt("Select the dice that you want to roll again")
                 .items(&dice)
                 .interact()
                 .unwrap();
