@@ -1,0 +1,9 @@
+[package]
+name = "kniffel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console = "0.16.0"
+dialoguer = "0.11.0"
+fastrand = "2.3.0"
